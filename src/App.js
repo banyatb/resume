@@ -5,9 +5,7 @@ import Resume from './components/resume'
 const App = () => {
 
   return (
-    <div>
-      <Resume />
-    </div>
+    <Resume />
   )
 }
 

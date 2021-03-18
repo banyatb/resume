@@ -11,5 +11,27 @@
 	],
 	"languages": [
 		{ "language": "English", "level": 60 }
+	],
+	"summary": "Web Developer with over 8 years, Frontend Developer with over 4 years and Full Stack Developer with over 3 years.",
+	"experience": [
+		{
+			"duration": "2018-08 - 2021-01",
+			"position": "Full Stack Developer",
+			"jobs": [
+				"MSQ System"
+			]
+		}
+	],
+	"education": [
+		{
+			"duration": "2000-06 - 2004-05",
+			"degree": "Bachelor of Material Engineering, Kasetsart University"
+		}
+	],
+	"achievements": [
+		"Achievement1"
+	],
+	"interests": [
+		"UX"
 	]
 }

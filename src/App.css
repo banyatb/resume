@@ -18,7 +18,7 @@
 	padding: 10px 20px;
 	font-size: 1rem;
 	font-weight: bold;
-	background-color: #00009f;
+	background-color: #093475;
 	text-align: left;
 	width: 100%;
 }
@@ -34,4 +34,25 @@
 	padding: 0 20px;
 	font-size: 0.9rem;
 	width: 100%;
+}
+
+.content-header {
+	padding: 8px 0;
+	margin-bottom: 16px;
+	font-size: 1.25rem;
+	font-weight: bold;
+	color: #083d8e;
+	text-align: left;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	width: 100%;
+}
+
+.content-content {
+	margin: 16px 0;
+	font-size: 0.95rem;
+}
+
+.content-title {
+	font-weight: bold;
 }

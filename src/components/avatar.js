@@ -3,7 +3,7 @@ import { Image, Row, Col } from 'antd'
 
 const Avatar = ({ profile }) => {
   return (
-    <Row style={{ padding: '20px' }}>
+    <Row>
       <Col flex="auto"></Col>
       <Col flex="150px">
         <Image src={profile} preview={false} className='avatar' />

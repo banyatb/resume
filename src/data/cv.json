@@ -1,0 +1,15 @@
+{
+	"profileImage": "https://firebasestorage.googleapis.com/v0/b/banyatb-resume.appspot.com/o/images%2Fprofile.jpg?alt=media",
+	"name": "Banyat Boonkaew",
+	"position": "Frontend Developer",
+	"address": "47/4 M.10 Wangsala Thamuang Kanchanaburi 71110",
+	"phone": "087-503-8950",
+	"email": "banyatb@gmail.com",
+	"github": "https://github.com/banyatb",
+	"skills": [
+		{ "skill": "Javascript", "level": 80 }
+	],
+	"languages": [
+		{ "language": "English", "level": 60 }
+	]
+}

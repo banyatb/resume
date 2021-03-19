@@ -69,7 +69,7 @@ const Resume = () => {
             <Row key={exp.duration} style={{ marginBottom: '16px' }}>
               <Col span={4}>{exp.duration}</Col>
               <Col span={20}>
-                <div className='content-title'>{exp.position}</div>
+                <div className='content-title'>{exp.position}, <span style={{ fontStyle: 'italic' }}>{exp.company}</span></div>
                 <ul style={{ paddingLeft: '12px' }}>
                   {(exp.jobs || []).map((job) => (
                     <li key={job}>{job}</li>
@@ -81,11 +81,11 @@ const Resume = () => {
           <Row>
             <div className='content-header'>Education</div>
           </Row>
-          {(Profile.education || []).map((exp) => (
-            <Row key={exp.duration} style={{ marginBottom: '16px' }}>
-              <Col span={4}>{exp.duration}</Col>
+          {(Profile.education || []).map((edu) => (
+            <Row key={edu.duration} style={{ marginBottom: '16px' }}>
+              <Col span={4}>{edu.duration}</Col>
               <Col span={20}>
-                <div className='content-title'>{exp.degree}</div>
+                <div className='content-title'>{edu.degree}, <span style={{ fontStyle: 'italic' }}>{edu.school}</span></div>
               </Col>
             </Row>
           ))}
